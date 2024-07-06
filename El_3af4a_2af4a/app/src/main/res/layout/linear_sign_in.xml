@@ -41,9 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:backgroundTint="#3874CB"
+        android:backgroundTint="#6078F8"
         android:text="Continue with Facebook"
-        android:textSize="15dp" />
+        android:textSize="16dp" />
 
     <Button
         android:id="@+id/google"
@@ -54,8 +54,8 @@
         android:layout_marginBottom="15dp"
         android:backgroundTint="#F6F6F7"
         android:text="Continue with Google"
-        android:textColor="#736A6A"
-        android:textSize="15dp" />
+        android:textColor="#000000"
+        android:textSize="16dp" />
 
     <EditText
         android:id="@+id/email"
@@ -86,9 +86,9 @@
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#3874CB"
+        android:backgroundTint="#6078F8"
         android:text="SIGN IN"
-        android:textSize="15dp" />
+        android:textSize="16dp" />
 
     <TextView
         android:id="@+id/forget_pass"
@@ -100,7 +100,7 @@
         android:gravity="center_horizontal"
         android:linksClickable="true"
         android:text="Forgot Password?"
-        android:textSize="12dp" />
+        android:textSize="16dp" />
 
     <TextView
         android:id="@+id/SIGNUP"
@@ -112,6 +112,12 @@
         android:gravity="center_horizontal"
         android:linksClickable="true"
         android:text="Don't have an account? Sign Up"
+<<<<<<< Updated upstream
         android:textSize="12dp" />
+=======
+        android:textColor="#6078F8"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+>>>>>>> Stashed changes
 
 </LinearLayout>
