@@ -77,7 +77,9 @@
         android:layout_marginBottom="10dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="text" />
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/baseline_visibility_off_24" />
+
 
     <EditText
         android:id="@+id/rewrite_password"
@@ -87,8 +89,10 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:ems="10"
-        android:inputType="text"
-        android:hint="Rewrite Password" />
+        android:hint="Rewrite Password"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/baseline_visibility_off_24" />
+
 
     <Button
         android:id="@+id/getstarted"
@@ -109,7 +113,6 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="15dp"
         android:gravity="center_horizontal"
-        android:linksClickable="true"
         android:text="Already have an account? SIGN IN"
         android:textSize="12dp" />
 
