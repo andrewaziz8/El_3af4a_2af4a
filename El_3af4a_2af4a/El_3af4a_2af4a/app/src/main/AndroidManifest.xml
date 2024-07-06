@@ -13,8 +13,6 @@
         android:theme="@style/Theme.El_3af4a_2af4a"
         tools:targetApi="31">
         <activity
-<<<<<<< Updated upstream
-=======
             android:name=".map"
             android:exported="false">
         </activity>
@@ -23,7 +21,6 @@
             android:exported="false">
         </activity>
         <activity
->>>>>>> Stashed changes
             android:name=".MainActivity"
             android:exported="false" />
         <activity
