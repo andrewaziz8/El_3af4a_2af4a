@@ -9,7 +9,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_weight="2"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
         app:srcCompat="@drawable/car" />
@@ -17,7 +17,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:fontFamily="@font/lemonada_light"
         android:gravity="center_horizontal"
@@ -29,21 +29,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:fontFamily="@font/inter_bold"
         android:gravity="center_horizontal"
         android:text="Create an account"
         android:textSize="25dp" />
-
-    <Button
-        android:id="@+id/facebook"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:backgroundTint="#6078F8"
-        android:text="Continue with Facebook"
-        android:textSize="16dp" />
 
     <Button
         android:id="@+id/google"
@@ -51,11 +41,11 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:layout_marginBottom="15dp"
-        android:backgroundTint="#F6F6F7"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="#DFE4E3"
         android:text="Continue with Google"
         android:textColor="#000000"
-        android:textSize="16dp" />
+        android:textSize="20dp" />
 
     <EditText
         android:id="@+id/email"
@@ -78,7 +68,8 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:drawableEnd="@drawable/baseline_visibility_off_24" />
+        android:drawableEnd="@drawable/baseline_visibility_off_24"
+        android:drawableRight="@drawable/baseline_visibility_24" />
 
 
     <EditText
@@ -91,7 +82,8 @@
         android:ems="10"
         android:hint="Rewrite Password"
         android:inputType="textPassword"
-        android:drawableEnd="@drawable/baseline_visibility_off_24" />
+        android:drawableEnd="@drawable/baseline_visibility_off_24"
+        android:drawableRight="@drawable/baseline_visibility_24" />
 
 
     <Button
@@ -111,7 +103,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="85dp"
         android:gravity="center_horizontal"
         android:text="Already have an account? SIGN IN"
         android:textColor="#6078F8"

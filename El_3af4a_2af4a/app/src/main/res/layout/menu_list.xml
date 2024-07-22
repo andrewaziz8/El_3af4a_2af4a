@@ -24,4 +24,23 @@
         android:drawableTint="@color/white"
         android:drawablePadding="3dp"
         />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:background="#3874CB"
+        android:text="Log out"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/towing"
+        android:layout_marginStart="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:drawableTint="@color/white"
+        android:drawablePadding="3dp"
+        />
+
 </RelativeLayout>

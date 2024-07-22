@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">El_3af4a_2af4a</string>
+    <string name="facebook_app_id">803998951928323</string>
+
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+
 </resources>
